@@ -1,3 +1,15 @@
+/*
+ * DISCLAIMER:
+ * This code is taken from the book:
+ * "An Introduction to Parallel Programming" (Second Edition)
+ * by Peter S. Pacheco and Matthew Malensek, University of San Francisco.
+ * It is provided here strictly for educational purposes.
+ *
+ * The code may be subject to copyright restrictions by the original authors.
+ * Any commercial use, modification, or redistribution beyond personal or 
+ * academic learning should comply with the publisher's terms and conditions.
+ */
+
 #include <stdio.h>
 #include <string.h>   /* For strlen */
 #include <mpi.h>      /* For MPI functions, etc */
