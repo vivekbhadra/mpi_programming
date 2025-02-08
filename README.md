@@ -8,7 +8,7 @@ Copyright (C) 2021 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  
 There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
 
-Compiling the MPI Program:
+Compiling the MPI Program:  
 mpicc -g -Wall -o mpi_hello mpi_hello.c  
 
 #Running the MPI Program
