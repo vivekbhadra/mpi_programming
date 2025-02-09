@@ -19,3 +19,9 @@ Greetings from process 0 of 4!
 Greetings from process 1 of 4!  
 Greetings from process 2 of 4!  
 Greetings from process 3 of 4!  
+
+Compiling custom communicator:  
+mpicc -g -Wall -o mpi_custom_communicator mpi_custom_communicator.c  
+mpiexec -n 4 ./mpi_custom_communicator
+while true; do mpiexec --bind-to core --map-by core -n 4 ./mpi_custom_communicator; done   
+
