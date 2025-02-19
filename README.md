@@ -79,4 +79,8 @@ Compiling and Running mpi_ssend.c
 mpicc -o mpi_ssend mpi_ssend.c 
 mpirun -np 4 mpi_ssend
 
+Compiling and Running mpi_scatter_gather.c
+mpicc -o mpi_scatter_gather mpi_scatter_gather.c 
+mpirun -np 4 mpi_scatter_gather
+
 
