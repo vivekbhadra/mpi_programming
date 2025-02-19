@@ -95,5 +95,14 @@ mpirun -np 4 mpi_custom_data_type
 Process 0 sending: id = 42, value = 3.140000
 Process 1 received: id = 42, value = 3.140000
 
+Compiling and Running mpi_wtime.c
+mpicc -o mpi_wtime mpi_wtime.c
+mpirun -np 4 mpi_wtime
+Process 1 completed execution in 0.034353 seconds
+Process 2 completed execution in 0.034265 seconds
+Process 0 completed execution in 0.034789 seconds
+Process 3 completed execution in 0.034810 seconds
+
+
 
 
