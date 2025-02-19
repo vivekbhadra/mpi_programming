@@ -82,5 +82,13 @@ mpirun -np 4 mpi_ssend
 Compiling and Running mpi_scatter_gather.c
 mpicc -o mpi_scatter_gather mpi_scatter_gather.c 
 mpirun -np 4 mpi_scatter_gather
+Root process distributing data: 10 20 30 40 
+Process 2 received value: 30
+Process 0 received value: 10
+Process 1 received value: 20
+Process 3 received value: 40
+Root process gathered squared values: 100 400 900 1600 
+
+
 
 
