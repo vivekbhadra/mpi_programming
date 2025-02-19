@@ -24,7 +24,7 @@ Compiling mpi_vector_addition.c:
 mpicc -o mpi_vector_addition mpi_vector_addition.c
 
 Running mpi_vector_addition.c on Ubuntu:
-mpirun -np 3 ./mpi_vector_addition 
+mpirun -np 4 ./mpi_vector_addition 
 x[0]=0.000000 
 y[0]=0.000000 
 x[1]=1.000000 
@@ -49,6 +49,10 @@ x[10]=10.000000
 y[10]=20.000000 
 x[11]=11.000000 
 y[11]=22.000000 
+Process 0 is performing computation
+Process 1 is performing computation
+Process 2 is performing computation
+Process 3 is performing computation
 Final vector z:
 x[0] + y[0] = z[0]=0.0
 x[1] + y[1] = z[1]=3.0
