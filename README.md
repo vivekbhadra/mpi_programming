@@ -67,3 +67,11 @@ x[9] + y[9] = z[9]=27.0
 x[10] + y[10] = z[10]=30.0
 x[11] + y[11] = z[11]=33.0
 
+Compiling and running mpi_sendrecv.c:
+mpicc -o mpi_sendrecv mpi_sendrecv.c 
+mpirun -np 4 ./mpi_sendrecv
+Process 0 received data 3 from process 3
+Process 1 received data 0 from process 0
+Process 2 received data 1 from process 1
+Process 3 received data 2 from process 2
+
