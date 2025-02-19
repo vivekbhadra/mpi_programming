@@ -89,6 +89,11 @@ Process 1 received value: 20
 Process 3 received value: 40
 Root process gathered squared values: 100 400 900 1600 
 
+Compiling and Running mpi_custom_data_type.c
+mpicc -o mpi_custom_data_type mpi_custom_data_type.c
+mpirun -np 4 mpi_custom_data_type
+Process 0 sending: id = 42, value = 3.140000
+Process 1 received: id = 42, value = 3.140000
 
 
 
